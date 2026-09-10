@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- نسمح بالاتصال غير المشفر (http) فقط مع السيرفر المحلي بتاعك -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.42.0.1</domain>
+    </domain-config>
+</network-security-config>

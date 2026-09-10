@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AchrafTube" parent="Theme.AppCompat.NoActionBar" />
+
+    <style name="Theme.AchrafTube.Fullscreen" parent="Theme.AchrafTube">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>
